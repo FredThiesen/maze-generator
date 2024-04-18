@@ -30,7 +30,7 @@ class Aldous_Broder:
         self.displayMaze = displayMaze
 
     def createMaze(self):
-        maze = np.ones((self.height, self.width), dtype=np.float)
+        maze = np.ones((self.height, self.width), dtype=float)
 
         for i in range(self.height):
             for j in range(self.width):

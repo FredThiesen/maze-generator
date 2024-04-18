@@ -2,3 +2,5 @@ backtracking_isu.py
 setup.cfg
 settings.json
 __pycache__/
+
+*.png
